@@ -1,0 +1,27 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: gray;
+  margin: 2% 2% 0% 0%;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+}
+
+.Item p {
+  margin: 4%;
+}
+.Item button {
+  margin-left: 5%;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
